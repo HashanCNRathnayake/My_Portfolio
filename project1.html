@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Hashan Rathnakaye </title>
+    <link rel="icon" href="icons/weblogo.png" type="image/x-icon"/>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="update2024/style2024.css">
+
+
+    <!-- box icon links -->
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <!-- fontaawsom link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700;800;900&family=Noto+Sans+JP:wght@100;200;300;400;500;600;700;800;900&family=Noto+Serif+JP:wght@900&display=swap" rel="stylesheet">
+
+
+    <!-- Include jQuery library from a CDN -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  
+  <script>
+    $(document).ready(function() {
+      $(".navlist a").on("click", function (e) {
+        e.preventDefault();
+        const href = $(this).attr("href");
+        $("html, body").animate({ scrollTop: $(href).offset().top }, 800);
+      });
+    });
+    $(document).ready(function() {
+      $(".buttons a").on("click", function (e) {
+        e.preventDefault();
+        const href = $(this).attr("href");
+        $("html, body").animate({ scrollTop: $(href).offset().top }, 800);
+      });
+    });
+    
+  </script>
+</head>
+<body>
+    <main>
+        <header>
+            <a href="index.html">
+                <div class="brand">
+                    <h1>H<span class="red">R</span></h1>
+                </div>
+            </a>
+            <div class="bx bx-menu" id="menu-icon"></div>
+    
+    
+            <ul class="navlist">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#service">Services</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contacts">Contacts</a>
+            </ul>
+        </header>
+
+        <div class="row center sec_1">
+            <h1>Meals on Wheels Web Application</h1><br>
+            <h3>| Full-Stack Web Development |</h3>
+            <h3>React JS, CSS, JavaScript, jQuerry, SpringBoot, Spring Security and MySQL</h3>
+            <div class="lang_info center">
+                <div class="lang ">
+                    <div class="icon"><img src="update2024/icons/react.jpg" alt=""></div>
+                    <div class="icon"><img src="icons/css-3.png" alt=""></div>
+                    <div class="icon"><img src="icons/js.png" alt=""></div>
+                    <div class="icon"><img src="icons/bootstrap.png" alt=""></div>
+                    <div class="icon"><img src="icons/java.png" alt=""></div>
+                    <div class="icon"><img src="icons/spring.png" alt=""></div>
+                    <div class="icon2"><img src="icons/springboot.png" alt=""></div>
+    
+                </div>
+                <!-- <div><a target="_blank" href="#" class="btn-blue"><i class="fa-solid fa-up-right-from-square"></i>&nbsp;&nbsp;Launch Demo</a></div> -->
+                <!-- <div><a href="#downloadlink" class="btn">Download Axure File</a></div> -->
+            </div>
+
+            <div class="col">
+                <img class="p_pic_1" src="update2024/Projects/mow.png" alt="">
+            </div>
+            <div class="col">
+                <img class="p_pic_1" src="update2024/Projects/mow.png" alt="">
+
+            </div>
+        </div>
+    
+    </main>
+</body>
+</html>

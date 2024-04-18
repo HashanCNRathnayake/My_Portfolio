@@ -1,0 +1,30 @@
+#b5c img, #b6c img {
+    height: 500px !important;
+}
+#b7c img, #b8c img {
+    height: 350px !important;
+}
+
+/* Projects */
+
+main{
+    padding: 50px;
+}
+.sec_1{
+    background-color: black;
+}
+.center{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.col-4{
+    width: 400px !important;
+}
+.col-8{
+    width: auto;
+}
+.p_pic_1{
+    width: 400px;
+}
+
